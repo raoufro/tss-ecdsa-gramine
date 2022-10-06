@@ -1,0 +1,848 @@
+debug: Gramine parsed TOML manifest file successfully
+debug: Token file: /root/gramine-config/gg20_keygen.token
+debug: Read dummy DCAP token
+debug: Enclave created:
+debug:     base:           0x0000000000000000
+debug:     size:           0x0000000020000000
+debug:     misc_select:    0x00000000
+debug:     attr.flags:     0x0000000000000005
+debug:     attr.xfrm:      0x0000000000000007
+debug:     ssa_frame_size: 4
+debug:     isv_prod_id:    0x00000000
+debug:     isv_svn:        0x00000000
+debug: Adding pages to SGX enclave, this may take some time...
+debug: Adding pages to enclave: 0x1ff58000-0x20000000 [REG:R--] (manifest) measured
+debug: Adding pages to enclave: 0x1fd78000-0x1ff58000 [REG:RW-] (ssa) measured
+debug: Adding pages to enclave: 0x1fd3c000-0x1fd78000 [TCS:---] (tcs) measured
+debug: Adding pages to enclave: 0x1fd00000-0x1fd3c000 [REG:RW-] (tls) measured
+debug: Adding pages to enclave: 0x1fcc0000-0x1fd00000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1fc80000-0x1fcc0000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1fc40000-0x1fc80000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1fc00000-0x1fc40000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1fbc0000-0x1fc00000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1fb80000-0x1fbc0000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1fb40000-0x1fb80000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1fb00000-0x1fb40000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1fac0000-0x1fb00000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1fa80000-0x1fac0000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1fa40000-0x1fa80000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1fa00000-0x1fa40000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f9c0000-0x1fa00000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f980000-0x1f9c0000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f940000-0x1f980000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f900000-0x1f940000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f8c0000-0x1f900000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f880000-0x1f8c0000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f840000-0x1f880000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f800000-0x1f840000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f7c0000-0x1f800000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f780000-0x1f7c0000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f740000-0x1f780000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f700000-0x1f740000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f6c0000-0x1f700000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f680000-0x1f6c0000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f640000-0x1f680000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f600000-0x1f640000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f5c0000-0x1f600000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f580000-0x1f5c0000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f540000-0x1f580000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f500000-0x1f540000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f4c0000-0x1f500000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f480000-0x1f4c0000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f440000-0x1f480000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f400000-0x1f440000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f3c0000-0x1f400000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f380000-0x1f3c0000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f340000-0x1f380000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f300000-0x1f340000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f2c0000-0x1f300000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f280000-0x1f2c0000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f240000-0x1f280000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f200000-0x1f240000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f1c0000-0x1f200000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f180000-0x1f1c0000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f140000-0x1f180000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f100000-0x1f140000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f0c0000-0x1f100000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f080000-0x1f0c0000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f040000-0x1f080000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f000000-0x1f040000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1efc0000-0x1f000000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1ef80000-0x1efc0000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1ef40000-0x1ef80000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1ef00000-0x1ef40000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1eec0000-0x1ef00000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1ee80000-0x1eec0000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1ee40000-0x1ee80000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1ee00000-0x1ee40000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1edf0000-0x1ee00000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ede0000-0x1edf0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1edd0000-0x1ede0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1edc0000-0x1edd0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1edb0000-0x1edc0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eda0000-0x1edb0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ed90000-0x1eda0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ed80000-0x1ed90000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ed70000-0x1ed80000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ed60000-0x1ed70000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ed50000-0x1ed60000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ed40000-0x1ed50000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ed30000-0x1ed40000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ed20000-0x1ed30000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ed10000-0x1ed20000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ed00000-0x1ed10000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ecf0000-0x1ed00000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ece0000-0x1ecf0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ecd0000-0x1ece0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ecc0000-0x1ecd0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ecb0000-0x1ecc0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eca0000-0x1ecb0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ec90000-0x1eca0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ec80000-0x1ec90000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ec70000-0x1ec80000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ec60000-0x1ec70000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ec50000-0x1ec60000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ec40000-0x1ec50000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ec30000-0x1ec40000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ec20000-0x1ec30000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ec10000-0x1ec20000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ec00000-0x1ec10000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ebf0000-0x1ec00000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ebe0000-0x1ebf0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ebd0000-0x1ebe0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ebc0000-0x1ebd0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ebb0000-0x1ebc0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eba0000-0x1ebb0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eb90000-0x1eba0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eb80000-0x1eb90000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eb70000-0x1eb80000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eb60000-0x1eb70000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eb50000-0x1eb60000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eb40000-0x1eb50000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eb30000-0x1eb40000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eb20000-0x1eb30000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eb10000-0x1eb20000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eb00000-0x1eb10000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eaf0000-0x1eb00000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eae0000-0x1eaf0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ead0000-0x1eae0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eac0000-0x1ead0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eab0000-0x1eac0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eaa0000-0x1eab0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ea90000-0x1eaa0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ea80000-0x1ea90000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ea70000-0x1ea80000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ea60000-0x1ea70000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ea50000-0x1ea60000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ea40000-0x1ea50000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1e623000-0x1e667000 [REG:R-X] (code) measured
+debug: Adding pages to enclave: 0x1e668000-0x1e66d000 [REG:RW-] (data) measured
+debug: Adding pages to enclave: 0x1e66d000-0x1ea40000 [REG:RW-] (bss) measured
+debug: Adding pages to enclave: 0x10000-0x1e623000 [REG:RWX] (free)
+debug: Added all pages to SGX enclave
+debug: Enclave initializing:
+debug:     enclave id:   0x000000001ffff000
+debug:     mr_enclave:   a7ae46c4569ff1de9e198485176bea59b0bbfab2c4241e9b4d04f571788890c0
+warning: PalVirtualMemoryProtect is unimplemented in Linux-SGX PAL
+debug: Gramine was built from commit: 1.3.1
+debug: Host: Linux-SGX
+debug: LibOS xsave_enabled 1, xsave_size 0x340(832), xsave_features 0x7
+debug: Initial VMA region 0x1e134000-0x1e1d7000 (LibOS) bookkeeped
+debug: Initial VMA region 0x1ff58000-0x20000000 (manifest) bookkeeped
+debug: ASLR top address adjusted to 0x12038000
+debug: host is Linux-SGX but remote attestation type is 'none', adding only /dev/attestation/attestation_type file and skipping others (report, etc.)
+debug: LibOS loaded at 0x1e134000, ready to initialize
+debug: mounting "file:." (chroot) under /
+debug: mounting "proc" (pseudo) under /proc
+debug: mounting "dev" (pseudo) under /dev
+debug: mounting "dev:tty" (chroot) under /dev/tty
+debug: mounting "sys" (pseudo) under /sys
+debug: Creating pipe: pipe.srv:9be4ccca9155c0d4e779b3c5ea22163c0e214ec0ae99916f3825bd0120ebef8f
+[P1:T1:] debug: mounting "file:/usr/lib/x86_64-linux-gnu/gramine/runtime/glibc" (chroot) under /lib
+[P1:T1:] debug: mounting "file:/lib/x86_64-linux-gnu" (chroot) under /lib/x86_64-linux-gnu
+[P1:T1:] debug: mounting "file:/usr/lib" (chroot) under /usr/lib
+[P1:T1:] debug: mounting "file:/usr/bin" (chroot) under /usr/bin
+[P1:T1:] debug: mounting "file:/etc" (chroot) under /etc
+[P1:T1:] debug: mounting "file:/usr/local/bin" (chroot) under /usr/local/bin
+[P1:T1:] debug: mounting "(null)" (tmpfs) under /tmp
+[P1:T1:] debug: mounting "file:../logs" (chroot) under /logs
+[P1:T1:bash] debug: Creating pipe: pipe.srv:e3ab1018ab3fb01a142a9e6b72c2e6b2bd44ddf8d7301d26c901fe52a22d7b25
+[P1:T1:bash] debug: Allocated stack at 0x11838000 (size = 0x800000)
+[P1:T1:bash] debug: loading "file:/usr/bin/bash"
+[P1:T1:bash] debug: find_interp: searching for interpreter: /lib/ld-linux-x86-64.so.2
+[P1:T1:bash] debug: loading "file:/usr/lib/x86_64-linux-gnu/gramine/runtime/glibc/ld-linux-x86-64.so.2"
+[P1:T1:bash] debug: Creating pipe: pipe.srv:1
+[P1:T1:bash] debug: Creating pipe: pipe.srv:2e5e22a1efb0316ba28bbe8c61375d6e0756e14ede4239618676739d3549cd95
+[P1:T1:bash] debug: LibOS initialized
+[P1:libos] debug: IPC worker started
+[P1:T1:bash] debug: glibc register library /lib/x86_64-linux-gnu/libtinfo.so.6 loaded at 0x11660000
+[P1:T1:bash] debug: glibc register library /lib/libdl.so.2 loaded at 0x1165b000
+[P1:T1:bash] debug: glibc register library /lib/libc.so.6 loaded at 0x11467000
+[P1:T1:bash] warning: Unsupported system call rseq
+warning: Allowing access to unknown file '/etc/nsswitch.conf' due to file_check_policy settings.
+warning: Allowing access to unknown file '/etc/passwd' due to file_check_policy settings.
+[P1:T1:bash] debug: Creating pipe: pipe.srv:32c767eb5b4a497307c871b380447369c262f54bad95cfe3b29d68565ceda1c5
+debug: Gramine parsed TOML manifest file successfully
+debug: Token file: /root/gramine-config/gg20_keygen.token
+debug: Read dummy DCAP token
+debug: Enclave created:
+debug:     base:           0x0000000000000000
+debug:     size:           0x0000000020000000
+debug:     misc_select:    0x00000000
+debug:     attr.flags:     0x0000000000000005
+debug:     attr.xfrm:      0x0000000000000007
+debug:     ssa_frame_size: 4
+debug:     isv_prod_id:    0x00000000
+debug:     isv_svn:        0x00000000
+debug: Adding pages to SGX enclave, this may take some time...
+debug: Adding pages to enclave: 0x1ff58000-0x20000000 [REG:R--] (manifest) measured
+debug: Adding pages to enclave: 0x1fd78000-0x1ff58000 [REG:RW-] (ssa) measured
+debug: Adding pages to enclave: 0x1fd3c000-0x1fd78000 [TCS:---] (tcs) measured
+debug: Adding pages to enclave: 0x1fd00000-0x1fd3c000 [REG:RW-] (tls) measured
+debug: Adding pages to enclave: 0x1fcc0000-0x1fd00000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1fc80000-0x1fcc0000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1fc40000-0x1fc80000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1fc00000-0x1fc40000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1fbc0000-0x1fc00000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1fb80000-0x1fbc0000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1fb40000-0x1fb80000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1fb00000-0x1fb40000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1fac0000-0x1fb00000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1fa80000-0x1fac0000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1fa40000-0x1fa80000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1fa00000-0x1fa40000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f9c0000-0x1fa00000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f980000-0x1f9c0000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f940000-0x1f980000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f900000-0x1f940000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f8c0000-0x1f900000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f880000-0x1f8c0000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f840000-0x1f880000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f800000-0x1f840000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f7c0000-0x1f800000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f780000-0x1f7c0000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f740000-0x1f780000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f700000-0x1f740000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f6c0000-0x1f700000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f680000-0x1f6c0000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f640000-0x1f680000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f600000-0x1f640000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f5c0000-0x1f600000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f580000-0x1f5c0000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f540000-0x1f580000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f500000-0x1f540000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f4c0000-0x1f500000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f480000-0x1f4c0000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f440000-0x1f480000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f400000-0x1f440000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f3c0000-0x1f400000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f380000-0x1f3c0000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f340000-0x1f380000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f300000-0x1f340000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f2c0000-0x1f300000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f280000-0x1f2c0000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f240000-0x1f280000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f200000-0x1f240000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f1c0000-0x1f200000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f180000-0x1f1c0000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f140000-0x1f180000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f100000-0x1f140000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f0c0000-0x1f100000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f080000-0x1f0c0000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f040000-0x1f080000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1f000000-0x1f040000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1efc0000-0x1f000000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1ef80000-0x1efc0000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1ef40000-0x1ef80000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1ef00000-0x1ef40000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1eec0000-0x1ef00000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1ee80000-0x1eec0000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1ee40000-0x1ee80000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1ee00000-0x1ee40000 [REG:RW-] (stack) measured
+debug: Adding pages to enclave: 0x1edf0000-0x1ee00000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ede0000-0x1edf0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1edd0000-0x1ede0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1edc0000-0x1edd0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1edb0000-0x1edc0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eda0000-0x1edb0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ed90000-0x1eda0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ed80000-0x1ed90000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ed70000-0x1ed80000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ed60000-0x1ed70000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ed50000-0x1ed60000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ed40000-0x1ed50000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ed30000-0x1ed40000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ed20000-0x1ed30000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ed10000-0x1ed20000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ed00000-0x1ed10000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ecf0000-0x1ed00000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ece0000-0x1ecf0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ecd0000-0x1ece0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ecc0000-0x1ecd0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ecb0000-0x1ecc0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eca0000-0x1ecb0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ec90000-0x1eca0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ec80000-0x1ec90000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ec70000-0x1ec80000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ec60000-0x1ec70000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ec50000-0x1ec60000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ec40000-0x1ec50000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ec30000-0x1ec40000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ec20000-0x1ec30000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ec10000-0x1ec20000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ec00000-0x1ec10000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ebf0000-0x1ec00000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ebe0000-0x1ebf0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ebd0000-0x1ebe0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ebc0000-0x1ebd0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ebb0000-0x1ebc0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eba0000-0x1ebb0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eb90000-0x1eba0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eb80000-0x1eb90000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eb70000-0x1eb80000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eb60000-0x1eb70000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eb50000-0x1eb60000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eb40000-0x1eb50000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eb30000-0x1eb40000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eb20000-0x1eb30000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eb10000-0x1eb20000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eb00000-0x1eb10000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eaf0000-0x1eb00000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eae0000-0x1eaf0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ead0000-0x1eae0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eac0000-0x1ead0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eab0000-0x1eac0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1eaa0000-0x1eab0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ea90000-0x1eaa0000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ea80000-0x1ea90000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ea70000-0x1ea80000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ea60000-0x1ea70000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ea50000-0x1ea60000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1ea40000-0x1ea50000 [REG:RW-] (sig_stack) measured
+debug: Adding pages to enclave: 0x1e623000-0x1e667000 [REG:R-X] (code) measured
+debug: Adding pages to enclave: 0x1e668000-0x1e66d000 [REG:RW-] (data) measured
+debug: Adding pages to enclave: 0x1e66d000-0x1ea40000 [REG:RW-] (bss) measured
+debug: Adding pages to enclave: 0x10000-0x1e623000 [REG:RWX] (free)
+debug: Added all pages to SGX enclave
+debug: Enclave initializing:
+debug:     enclave id:   0x000000001ffff000
+debug:     mr_enclave:   a7ae46c4569ff1de9e198485176bea59b0bbfab2c4241e9b4d04f571788890c0
+debug: Key exchange succeeded
+debug: Received local report
+debug: Verify report:
+debug:   cpu_svn:     0313ffffff8000000000000000000000
+debug:   mr_enclave:  a7ae46c4569ff1de9e198485176bea59b0bbfab2c4241e9b4d04f571788890c0
+debug:   mr_signer:   c833878c28cf736ae00e1a9726215d12c94e49c5006fbfe7445df7f94c51a2c7
+debug:   attr.flags:  0000000000000005
+debug:   attr.xfrm:   0000000000000007
+debug:   isv_prod_id: 00
+debug:   isv_svn:     00
+debug:   report_data: fbcd24f155a97222f74f0b2fc9353677b9a637108f3599f1db87e0797111fc9f0000000000000000000000000000000000000000000000000000000000000000
+debug:   key_id:      e027d287305bba1e0146f24ceaa4fd2800000000000000000000000000000000
+debug:   mac:         985527d031c01680402b92cd2f7da521
+debug: Local attestation succeeded!
+[P1:T1:bash] debug: allocating checkpoint store (size = 67108864, reserve = 33554432)
+warning: PalVirtualMemoryProtect is unimplemented in Linux-SGX PAL
+debug: Gramine was built from commit: 1.3.1
+debug: Host: Linux-SGX
+debug: LibOS xsave_enabled 1, xsave_size 0x340(832), xsave_features 0x7
+debug: Initial VMA region 0x1e128000-0x1e1cb000 (LibOS) bookkeeped
+debug: Initial VMA region 0x1ff58000-0x20000000 (manifest) bookkeeped
+debug: ASLR top address adjusted to 0x7497000
+debug: host is Linux-SGX but remote attestation type is 'none', adding only /dev/attestation/attestation_type file and skipping others (report, etc.)
+debug: LibOS loaded at 0x1e128000, ready to initialize
+[P1:T1:bash] debug: complete checkpointing data
+[P1:T1:bash] debug: checkpoint of 46960 bytes created
+debug: checkpoint mapped at 0xb465000-0xb470770
+debug: read checkpoint of 46960 bytes from parent
+debug: memory entry [0xb469eb0]: 0x11465000-0x11467000
+debug: memory entry [0xb469ce0]: 0x1164d000-0x11650000
+debug: memory entry [0xb469c48]: 0x11650000-0x11653000
+debug: memory entry [0xb4697c8]: 0x11653000-0x1165b000
+debug: memory entry [0xb4695f8]: 0x1165e000-0x1165f000
+debug: memory entry [0xb469560]: 0x1165f000-0x11660000
+debug: memory entry [0xb468fa8]: 0x1168b000-0x1168f000
+debug: memory entry [0xb468f10]: 0x1168f000-0x11690000
+debug: memory entry [0xb468aa0]: 0x11690000-0x11692000
+debug: memory entry [0xb468a08]: 0x11692000-0x11693000
+debug: memory entry [0xb4687d0]: 0x116c7000-0x116c9000
+debug: memory entry [0xb468738]: 0x116c9000-0x116cb000
+debug: memory entry [0xb4682a0]: 0x116cb000-0x116ec000
+debug: memory entry [0xb468068]: 0x11820000-0x11824000
+debug: memory entry [0xb467fd0]: 0x11824000-0x1182d000
+debug: memory entry [0xb467b80]: 0x1182d000-0x11837000
+debug: memory entry [0xb467ae8]: 0x11837000-0x11838000
+debug: memory entry [0xb467a50]: 0x11838000-0x12038000
+debug: restored memory from checkpoint
+debug: receiving 7 PAL handles
+debug: restoring checkpoint at 0x0b465000 rebased from 0xb465000
+debug: Creating pipe: pipe.srv:77274b1deb52ab0a511accf39f7c55a6ccf9a5bb17e41a9e44c0b6e12fc2bd07
+[P2:T2:bash] debug: successfully restored checkpoint at 0x0b465000 - 0x0b470770
+[P2:T2:bash] debug: Creating pipe: pipe.srv:a48c3f92d122223ad4593c29c744429c7a00d6380ab710fb1c9662093ba6c7e9
+[P2:T2:bash] debug: Creating pipe: pipe.srv:2
+[P2:T2:bash] debug: Creating pipe: pipe.srv:f0c701baa9567c03d763dcf835fec85429f6fe7191dfd418bd0d2789470eee66
+[P2:libos] debug: IPC worker started
+[P2:T2:bash] debug: ipc_get_id_owner: sending a request: 0
+[P2:T2:bash] debug: Sending ipc message to 1
+[P2:T2:bash] debug: Waiting for a response to 1
+[P1:libos] debug: IPC worker: received IPC message from 2: code=6 size=21 seq=1
+[P1:libos] debug: ipc_get_id_owner_callback: find_id_owner(0): 0
+[P1:libos] debug: Sending ipc message to 2
+[P2:libos] debug: IPC worker: received IPC message from 1: code=0 size=21 seq=1
+[P2:libos] debug: Got an IPC response from 1, seq: 1
+[P2:T2:bash] debug: Waiting finished: 0
+[P2:T2:bash] debug: ipc_get_id_owner: got a response: 0
+[P2:T2:bash] debug: LibOS initialized
+warning: Allowing access to unknown file '../logs/DKG/DKG_3_3_error.log' due to file_check_policy settings.
+warning: Allowing access to unknown file '/usr/local/bin/gg20_keygen' due to file_check_policy settings.
+[P2:T2:gg20_keygen] debug: Allocated stack at 0x6c97000 (size = 0x800000)
+[P2:T2:gg20_keygen] debug: loading "file:/usr/local/bin/gg20_keygen"
+[P2:T2:gg20_keygen] debug: find_interp: searching for interpreter: /lib/ld-linux-x86-64.so.2
+[P2:T2:gg20_keygen] debug: loading "file:/usr/lib/x86_64-linux-gnu/gramine/runtime/glibc/ld-linux-x86-64.so.2"
+[P2:T2:gg20_keygen] debug: execve: start execution
+[P2:T2:gg20_keygen] debug: glibc register library /lib/x86_64-linux-gnu/libssl.so.1.1 loaded at 0x0681f000
+[P2:T2:gg20_keygen] debug: glibc register library /lib/x86_64-linux-gnu/libcrypto.so.1.1 loaded at 0x06549000
+[P2:T2:gg20_keygen] debug: glibc register library /lib/x86_64-linux-gnu/libgcc_s.so.1 loaded at 0x0652e000
+[P2:T2:gg20_keygen] debug: glibc register library /lib/libpthread.so.0 loaded at 0x06529000
+[P2:T2:gg20_keygen] debug: glibc register library /lib/libm.so.6 loaded at 0x0644b000
+[P2:T2:gg20_keygen] debug: glibc register library /lib/libdl.so.2 loaded at 0x06444000
+[P2:T2:gg20_keygen] debug: glibc register library /lib/libc.so.6 loaded at 0x06250000
+[P2:T2:gg20_keygen] warning: Unsupported system call rseq
+warning: Allowing access to unknown file '/usr/lib/ssl/openssl.cnf' due to file_check_policy settings.
+[P2:T2:gg20_keygen] debug: epoll: added 4 (0x125fe7a8) to epoll handle 0x125fe588
+[P2:T2:gg20_keygen] debug: epoll: added 8 (0x125febe8) to epoll handle 0x125fe588
+[P2:T2:gg20_keygen] warning: Unsupported system call clone3
+[P2:T2:gg20_keygen] debug: Creating pipe: pipe.srv:704b5cb6eb05c865585ba7ed86a2ca5e6a5674db3dda230678620206225c48b5
+[P2:T2:gg20_keygen] debug: ipc_alloc_id_range: sending a request
+[P2:T2:gg20_keygen] debug: Sending ipc message to 1
+[P2:T2:gg20_keygen] debug: Waiting for a response to 2
+[P1:libos] debug: IPC worker: received IPC message from 2: code=3 size=17 seq=2
+[P1:libos] debug: ipc_alloc_id_range_callback: 0
+[P1:libos] debug: Sending ipc message to 2
+[P2:libos] debug: IPC worker: received IPC message from 1: code=0 size=25 seq=2
+[P2:libos] debug: Got an IPC response from 1, seq: 2
+[P2:T2:gg20_keygen] debug: Waiting finished: 0
+[P2:T2:gg20_keygen] debug: ipc_alloc_id_range: got a response: [33..64]
+[P2:T33:gg20_keygen] warning: Unsupported system call prctl
+[P2:T2:gg20_keygen] warning: Unsupported system call clone3
+[P2:T2:gg20_keygen] debug: Creating pipe: pipe.srv:60638bc471cd6d17d03f0abc9f20d722b6b5d2db2d66f1d30f14e59357a78ebf
+[P2:T34:gg20_keygen] warning: Unsupported system call prctl
+[P2:T2:gg20_keygen] warning: Unsupported system call clone3
+[P2:T2:gg20_keygen] debug: Creating pipe: pipe.srv:f6f25cb7540b10f5debb25af34af87f7c697f25a0ec7b1dbebbed7feba5dd46d
+[P2:T35:gg20_keygen] warning: Unsupported system call prctl
+[P2:T2:gg20_keygen] warning: Unsupported system call clone3
+[P2:T2:gg20_keygen] debug: Creating pipe: pipe.srv:4b1f8702cf4fb8fe31a4ee74055975b385d5bc16b44121381276e89c1bff05ca
+[P2:T36:gg20_keygen] warning: Unsupported system call prctl
+[P2:T2:gg20_keygen] warning: Unsupported system call clone3
+[P2:T2:gg20_keygen] debug: Creating pipe: pipe.srv:2c6d6909aa171f5ca2ef34ea1da1b15c7ec42aa52218a577dbddda1e126186a8
+[P2:T37:gg20_keygen] warning: Unsupported system call prctl
+[P2:T2:gg20_keygen] warning: Unsupported system call clone3
+[P2:T2:gg20_keygen] debug: Creating pipe: pipe.srv:fff4f442fe14e9db58705fb12b69c9ad0814d95732ffefbd5674d60336734a69
+[P2:T38:gg20_keygen] warning: Unsupported system call prctl
+[P2:T2:gg20_keygen] warning: Unsupported system call clone3
+[P2:T2:gg20_keygen] debug: Creating pipe: pipe.srv:b5744195e8e99f59b207fd7f623bfae199820bd003d23b951f4394cc5d63e897
+[P2:T39:gg20_keygen] warning: Unsupported system call prctl
+[P2:T2:gg20_keygen] warning: Unsupported system call clone3
+[P2:T2:gg20_keygen] debug: Creating pipe: pipe.srv:a39bd78bcb70ecd6e1ad4c8f00fa33622ab5195027e49522c3ebd09bc34b0e98
+[P2:T40:gg20_keygen] warning: Unsupported system call prctl
+[P2:T2:gg20_keygen] warning: Unsupported system call clone3
+[P2:T2:gg20_keygen] debug: Creating pipe: pipe.srv:5ec5e37e95bbf385d972223c17107b2b86bee0dff9cb45cc555826881c0f795d
+[P2:T41:gg20_keygen] warning: Unsupported system call prctl
+[P2:T2:gg20_keygen] warning: Unsupported system call clone3
+[P2:T2:gg20_keygen] debug: Creating pipe: pipe.srv:05052aff8d408a5f2b9eee5f23ec8b56a07db4b5efc3329fbce2a967295b7f9d
+[P2:T42:gg20_keygen] warning: Unsupported system call prctl
+[P2:T2:gg20_keygen] warning: Unsupported system call clone3
+[P2:T2:gg20_keygen] debug: Creating pipe: pipe.srv:ca1653769fde0fec717b88fc05aa458e6126163ee12ea67758b875e198bc783f
+[P2:T43:gg20_keygen] warning: Unsupported system call prctl
+[P2:T2:gg20_keygen] warning: Unsupported system call clone3
+[P2:T2:gg20_keygen] debug: Creating pipe: pipe.srv:221d72c9f0d11a65baaa4c8242446bbff6af81f4548a9a1ae013e9ea5c837bb8
+[P2:T44:gg20_keygen] warning: Unsupported system call prctl
+[P2:T2:gg20_keygen] warning: Unsupported system call clone3
+[P2:T2:gg20_keygen] debug: Creating pipe: pipe.srv:f8eedfb3348619fc0219bc220d23dad4d3244d6526aee6bf1c3d4b4970c3987f
+[P2:T45:gg20_keygen] warning: Unsupported system call prctl
+[P2:T2:gg20_keygen] warning: Unsupported system call clone3
+[P2:T2:gg20_keygen] debug: Creating pipe: pipe.srv:32a679a7d347beb9c068f4dab67b0c3ddd84338a91599aa728e2da4013c843b5
+[P2:T46:gg20_keygen] warning: Unsupported system call prctl
+[P2:T2:gg20_keygen] warning: Unsupported system call clone3
+[P2:T2:gg20_keygen] debug: Creating pipe: pipe.srv:0cba68d967b49309abdfb12a7323a753fc6e492dbe8b6ee2dfb3c8c2cf4009ff
+[P2:T47:gg20_keygen] warning: Unsupported system call prctl
+[P2:T2:gg20_keygen] warning: Unsupported system call clone3
+[P2:T2:gg20_keygen] debug: Creating pipe: pipe.srv:82680a70e4485f4ae8ffd054be10fd332ec130eb7a8d75edd5bab33d86f4859b
+[P2:T48:gg20_keygen] warning: Unsupported system call prctl
+[P2:T41:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T48:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T42:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T43:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T35:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T39:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T44:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T45:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T37:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T46:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T40:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T36:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T47:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T2:gg20_keygen] warning: Unsupported system call clone3
+[P2:T2:gg20_keygen] debug: Creating pipe: pipe.srv:52d265393dbc8ebff0d60b533b3f17c7b37205a4b547a2fdced9cb39d8d6e8f1
+[P2:T49:gg20_keygen] warning: Unsupported system call prctl
+[P2:T2:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T49:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T33:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+warning: Allowing access to unknown file '../logs/shares/2_3/share3.json' due to file_check_policy settings.
+[P2:T2:gg20_keygen] warning: Unsupported system call clone3
+[P2:T2:gg20_keygen] debug: Creating pipe: pipe.srv:b8575f15c664f124d699f931dcac2c00a09fd6e951c0004edad6dad2baabec36
+[P2:T2:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T50:gg20_keygen] warning: Unsupported system call prctl
+[P2:T2:gg20_keygen] warning: Unsupported system call statx
+[P2:T2:gg20_keygen] warning: Unsupported system call statx
+[P2:T2:gg20_keygen] warning: Unsupported system call statx
+[P2:T2:gg20_keygen] warning: Unsupported system call statx
+[P2:T2:gg20_keygen] warning: Unsupported system call statx
+[P2:T2:gg20_keygen] warning: Unsupported system call statx
+[P2:T2:gg20_keygen] warning: Unsupported system call statx
+[P2:T2:gg20_keygen] warning: Unsupported system call statx
+[P2:T2:gg20_keygen] warning: Unsupported system call statx
+[P2:T2:gg20_keygen] warning: Unsupported system call statx
+[P2:T2:gg20_keygen] warning: Unsupported system call statx
+[P2:T2:gg20_keygen] warning: Unsupported system call statx
+[P2:T2:gg20_keygen] warning: Unsupported system call statx
+[P2:T2:gg20_keygen] warning: Unsupported system call statx
+[P2:T2:gg20_keygen] warning: Unsupported system call statx
+[P2:T2:gg20_keygen] warning: Unsupported system call statx
+[P2:T2:gg20_keygen] warning: Unsupported system call statx
+[P2:T2:gg20_keygen] warning: Unsupported system call statx
+[P2:T2:gg20_keygen] warning: Unsupported system call statx
+[P2:T2:gg20_keygen] warning: Unsupported system call statx
+[P2:T2:gg20_keygen] warning: Unsupported system call statx
+[P2:T2:gg20_keygen] warning: Unsupported system call statx
+[P2:T2:gg20_keygen] warning: Unsupported system call statx
+[P2:T2:gg20_keygen] warning: Unsupported system call statx
+[P2:T2:gg20_keygen] warning: Unsupported system call statx
+[P2:T2:gg20_keygen] warning: Unsupported system call statx
+[P2:T2:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T50:gg20_keygen] warning: Unsupported system call mremap
+[P2:T2:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T2:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T2:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T2:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T50:gg20_keygen] warning: Unsupported system call mremap
+[P2:T2:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T50:gg20_keygen] warning: Unsupported system call mremap
+[P2:T50:gg20_keygen] warning: Unsupported system call mremap
+[P2:T2:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T50:gg20_keygen] warning: Unsupported system call mremap
+[P2:T50:gg20_keygen] warning: Unsupported system call mremap
+[P2:T2:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T2:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T2:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T34:gg20_keygen] warning: Unsupported system call clone3
+[P2:T34:gg20_keygen] debug: Creating pipe: pipe.srv:9f77a88c3145eee4d4e6479b709f296ba93e95ded50448880c846a40360bb328
+[P2:T34:gg20_keygen] warning: Unsupported system call clone3
+[P2:T34:gg20_keygen] debug: Creating pipe: pipe.srv:8008428491749cbd1229a2074b686e6b07c084b7dd8fc93bf08ea8b09df8009b
+[P2:T51:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T34:gg20_keygen] warning: Unsupported system call clone3
+[P2:T52:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T34:gg20_keygen] debug: Creating pipe: pipe.srv:37a58d81409abb7257b5eb2b21c347506632ea058be56129df24c41c30f3f8ed
+[P2:T34:gg20_keygen] warning: Unsupported system call clone3
+[P2:T53:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T34:gg20_keygen] debug: Creating pipe: pipe.srv:4ce92ca3d776916f19c091382168b597bd776220ba2a5fac9b7531f475ee88bc
+[P2:T54:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T34:gg20_keygen] warning: Unsupported system call clone3
+[P2:T34:gg20_keygen] debug: Creating pipe: pipe.srv:07353d715daea2b81687ea2771b9c6b23ee3b2276c670801d33a0651cb0b9400
+[P2:T55:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T34:gg20_keygen] warning: Unsupported system call clone3
+[P2:T34:gg20_keygen] debug: Creating pipe: pipe.srv:0c00ae749c95cdb3603cde132e5798d450447a99b74592d3f3c24db5d2215109
+[P2:T56:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T34:gg20_keygen] warning: Unsupported system call clone3
+[P2:T34:gg20_keygen] debug: Creating pipe: pipe.srv:28fa4f372f1448933b62f4d90b9f8c074ef97bbd7b5160800184740c47270a0e
+[P2:T57:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T34:gg20_keygen] warning: Unsupported system call clone3
+[P2:T34:gg20_keygen] debug: Creating pipe: pipe.srv:7bc04c62bb57159f8b62cdb608358be7c26729d8274fd40c888a13c4eac952ef
+[P2:T58:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T34:gg20_keygen] warning: Unsupported system call clone3
+[P2:T34:gg20_keygen] debug: Creating pipe: pipe.srv:750b8d3140a427a001dd24f90670f68323913b0786c0f883d739522f0e19f447
+[P2:T59:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T34:gg20_keygen] warning: Unsupported system call clone3
+[P2:T34:gg20_keygen] debug: Creating pipe: pipe.srv:dfcfaf1195d3923e26a70c1fb81533f34421cf6f0677e0e46f9d295594a4cc2d
+[P2:T60:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T34:gg20_keygen] warning: Unsupported system call clone3
+[P2:T34:gg20_keygen] debug: Creating pipe: pipe.srv:146802c5bf4d03b7a32d4db5e38ef0b8fb4512f2b30b402ef338324b6660a13e
+[P2:T61:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T34:gg20_keygen] warning: Unsupported system call clone3
+[P2:T34:gg20_keygen] debug: Creating pipe: pipe.srv:f05385995cc6ac942a06d410a7619c62a8f723c1c7d6a34099f50037436f3a23
+[P2:T62:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T34:gg20_keygen] warning: Unsupported system call clone3
+[P2:T34:gg20_keygen] debug: Creating pipe: pipe.srv:530a82b5be3f790d9d037626386f091a85613d16fac95a2ea4b7cb4868aa0708
+[P2:T63:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T34:gg20_keygen] warning: Unsupported system call clone3
+[P2:T34:gg20_keygen] debug: Creating pipe: pipe.srv:f533de54fc8f8ef3d18efa9d18f818a51163ae196ef53848e2d9972fa2c2eb8e
+[P2:T64:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T34:gg20_keygen] warning: Unsupported system call clone3
+[P2:T34:gg20_keygen] debug: Creating pipe: pipe.srv:1a103498b219b102f6820f810bd5d7c0a801a23b61ddf9d20231c1fdfd98dfa7
+[P2:T34:gg20_keygen] debug: ipc_alloc_id_range: sending a request
+[P2:T34:gg20_keygen] debug: Sending ipc message to 1
+[P2:T34:gg20_keygen] debug: Waiting for a response to 3
+[P1:libos] debug: IPC worker: received IPC message from 2: code=3 size=17 seq=3
+[P1:libos] debug: ipc_alloc_id_range_callback: 0
+[P1:libos] debug: Sending ipc message to 2
+[P2:libos] debug: IPC worker: received IPC message from 1: code=0 size=25 seq=3
+[P2:libos] debug: Got an IPC response from 1, seq: 3
+[P2:T34:gg20_keygen] debug: Waiting finished: 0
+[P2:T34:gg20_keygen] debug: ipc_alloc_id_range: got a response: [65..96]
+[P2:T65:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T34:gg20_keygen] warning: Unsupported system call clone3
+[P2:T34:gg20_keygen] debug: Creating pipe: pipe.srv:1a510cceb4cfdbdac1356f7ce832a8c468271451e07af25e1d8fe9b3ddfb3343
+[P2:T34:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T66:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T59:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T61:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T62:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T63:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T64:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T61:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T59:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T62:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T63:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T66:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T55:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T58:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T53:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T60:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T52:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T51:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T56:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T51:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T56:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T52:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T53:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T55:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T54:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T65:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T51:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T52:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T66:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T54:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T53:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T55:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T57:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T54:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T52:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T51:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T55:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T56:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T53:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T58:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T59:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T34:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T56:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T59:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T57:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T61:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T60:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T62:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T56:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T65:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T60:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T61:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T59:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T56:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T59:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T62:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T66:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T55:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T53:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T58:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T65:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T63:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T55:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T53:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T58:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T51:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T52:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T57:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T64:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T53:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T52:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T51:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T55:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T56:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T54:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T52:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T53:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T51:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T55:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T56:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T34:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T57:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T60:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T62:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T63:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T57:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T65:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T64:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T66:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T62:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T66:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T60:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T63:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T53:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T58:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T56:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T59:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T56:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T58:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T53:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T52:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T57:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T65:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T54:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T51:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T61:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T58:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T51:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T52:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T55:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T52:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T53:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T51:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T54:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T56:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T2:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T2:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T2:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T2:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T2:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T2:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T2:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T2:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T2:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T2:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T2:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T2:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T2:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T2:gg20_keygen] warning: Non-private futexes are not supported, assuming implicit FUTEX_PRIVATE_FLAG
+[P2:T50:gg20_keygen] debug: ---- exit (returning 0)
+[P2:T50:gg20_keygen] debug: Creating pipe: pipe.srv:2bebbd6e86e43c9226ef0ab2a05cdcb131d79bef2e9ac182a4de43ba286b2d20
+[P2:T50:gg20_keygen] debug: Installed async event at 1665073827972774
+[P2:libos] debug: Async worker thread started
+[P2:libos] debug: Thread exited, cleaning up
+[P2:T2:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T2:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T2:gg20_keygen] warning: Non-private futexes are not supported, assuming implicit FUTEX_PRIVATE_FLAG
+[P2:T33:gg20_keygen] debug: epoll: deleted 8 (0x125febe8) from epoll handle 0x125fe588
+[P2:T38:gg20_keygen] debug: ---- exit (returning 0)
+[P2:T38:gg20_keygen] debug: Installed async event at 1665073827976757
+[P2:libos] debug: Thread exited, cleaning up
+[P2:T48:gg20_keygen] debug: ---- exit (returning 0)
+[P2:T48:gg20_keygen] debug: Installed async event at 1665073827976942
+[P2:T46:gg20_keygen] debug: ---- exit (returning 0)
+[P2:T42:gg20_keygen] debug: ---- exit (returning 0)
+[P2:T46:gg20_keygen] debug: Installed async event at 1665073827976969
+[P2:T42:gg20_keygen] debug: Installed async event at 1665073827976976
+[P2:T39:gg20_keygen] debug: ---- exit (returning 0)
+[P2:T39:gg20_keygen] debug: Installed async event at 1665073827977010
+[P2:T47:gg20_keygen] debug: ---- exit (returning 0)
+[P2:T47:gg20_keygen] debug: Installed async event at 1665073827977048
+[P2:T43:gg20_keygen] debug: ---- exit (returning 0)
+[P2:T43:gg20_keygen] debug: Installed async event at 1665073827977094
+[P2:T45:gg20_keygen] debug: ---- exit (returning 0)
+[P2:T40:gg20_keygen] debug: ---- exit (returning 0)
+[P2:T45:gg20_keygen] debug: Installed async event at 1665073827977176
+[P2:T34:gg20_keygen] debug: ---- exit (returning 0)
+[P2:T36:gg20_keygen] debug: ---- exit (returning 0)
+[P2:T40:gg20_keygen] debug: Installed async event at 1665073827977188
+[P2:T34:gg20_keygen] debug: Installed async event at 1665073827977203
+[P2:T36:gg20_keygen] debug: Installed async event at 1665073827977212
+[P2:T35:gg20_keygen] debug: ---- exit (returning 0)
+[P2:T49:gg20_keygen] debug: ---- exit (returning 0)
+[P2:T41:gg20_keygen] debug: ---- exit (returning 0)
+[P2:T35:gg20_keygen] debug: Installed async event at 1665073827977277
+[P2:T49:gg20_keygen] debug: Installed async event at 1665073827977286
+[P2:T41:gg20_keygen] debug: Installed async event at 1665073827977300
+[P2:T33:gg20_keygen] debug: ---- exit (returning 0)
+[P2:T44:gg20_keygen] debug: ---- exit (returning 0)
+[P2:T33:gg20_keygen] debug: Installed async event at 1665073827977333
+[P2:T44:gg20_keygen] debug: Installed async event at 1665073827977347
+[P2:T37:gg20_keygen] debug: ---- exit (returning 0)
+[P2:T37:gg20_keygen] debug: Installed async event at 1665073827977384
+[P2:libos] debug: Thread exited, cleaning up
+[P2:libos] debug: Thread exited, cleaning up
+[P2:libos] debug: Thread exited, cleaning up
+[P2:libos] debug: Thread exited, cleaning up
+[P2:libos] debug: Thread exited, cleaning up
+[P2:libos] debug: Thread exited, cleaning up
+[P2:libos] debug: Thread exited, cleaning up
+[P2:libos] debug: Thread exited, cleaning up
+[P2:libos] debug: Thread exited, cleaning up
+[P2:libos] debug: Thread exited, cleaning up
+[P2:libos] debug: Thread exited, cleaning up
+[P2:libos] debug: Thread exited, cleaning up
+[P2:libos] debug: Thread exited, cleaning up
+[P2:libos] debug: Thread exited, cleaning up
+[P2:libos] debug: Thread exited, cleaning up
+[P2:libos] debug: Thread exited, cleaning up
+[P2:T2:gg20_keygen] warning: Ignoring FUTEX_CLOCK_REALTIME flag
+[P2:T2:gg20_keygen] warning: Non-private futexes are not supported, assuming implicit FUTEX_PRIVATE_FLAG
+[P2:T2:gg20_keygen] debug: ---- exit_group (returning 0)
+[P2:T64:gg20_keygen] debug: Installed async event at 1665073827984988
+[P2:T52:gg20_keygen] debug: Installed async event at 1665073827985038
+[P2:libos] debug: Thread exited, cleaning up
+[P2:libos] debug: Thread exited, cleaning up
+[P2:T57:gg20_keygen] debug: Installed async event at 1665073827985101
+[P2:T58:gg20_keygen] debug: Installed async event at 1665073827985111
+[P2:T65:gg20_keygen] debug: Installed async event at 1665073827985092
+[P2:T60:gg20_keygen] debug: Installed async event at 1665073827985102
+[P2:T51:gg20_keygen] debug: Installed async event at 1665073827985070
+[P2:T56:gg20_keygen] debug: Installed async event at 1665073827985131
+[P2:T55:gg20_keygen] debug: Installed async event at 1665073827985090
+[P2:T66:gg20_keygen] debug: Installed async event at 1665073827985075
+[P2:T62:gg20_keygen] debug: Installed async event at 1665073827985082
+[P2:T63:gg20_keygen] debug: Installed async event at 1665073827985084
+[P2:T54:gg20_keygen] debug: Installed async event at 1665073827985064
+[P2:T59:gg20_keygen] debug: Installed async event at 1665073827985083
+[P2:T53:gg20_keygen] debug: Installed async event at 1665073827985059
+[P2:T61:gg20_keygen] debug: Installed async event at 1665073827985254
+[P2:T2:gg20_keygen] debug: Sending ipc message to 1
+[P2:T2:gg20_keygen] debug: Waiting for a response to 4
+[P2:libos] debug: Thread exited, cleaning up
+[P2:libos] debug: Thread exited, cleaning up
+[P1:libos] debug: IPC worker: received IPC message from 2: code=17 size=21 seq=4
+[P2:libos] debug: Thread exited, cleaning up
+[P2:libos] debug: Thread exited, cleaning up
+[P2:libos] debug: Thread exited, cleaning up
+[P2:libos] debug: Thread exited, cleaning up
+[P1:libos] debug: clearing POSIX locks for pid 2
+[P1:libos] debug: Sending ipc message to 2
+[P2:libos] debug: Thread exited, cleaning up
+[P2:libos] debug: Thread exited, cleaning up
+[P2:libos] debug: Thread exited, cleaning up
+[P2:libos] debug: Thread exited, cleaning up
+[P2:libos] debug: IPC worker: received IPC message from 1: code=0 size=21 seq=4
+[P2:libos] debug: Thread exited, cleaning up
+[P2:libos] debug: Thread exited, cleaning up
+[P2:libos] debug: Got an IPC response from 1, seq: 4
+[P2:libos] debug: Thread exited, cleaning up
+[P2:libos] debug: Thread exited, cleaning up
+[P2:T2:gg20_keygen] debug: Waiting finished: 0
+[P2:T2:gg20_keygen] debug: Sending ipc message to 1
+[P2:T2:gg20_keygen] debug: sync client shutdown: closing handles
+[P1:libos] debug: IPC worker: received IPC message from 2: code=2 size=37 seq=0
+[P2:T2:gg20_keygen] debug: sync client shutdown: waiting for confirmation
+[P1:libos] debug: IPC callback from 2: IPC_MSG_CHILDEXIT(1, 2, 0, 0)
+[P2:T2:gg20_keygen] debug: sync client shutdown: finished
+[P2:T2:gg20_keygen] debug: ipc_release_id_range: sending a request: [2..2]
+[P2:T2:gg20_keygen] debug: Sending ipc message to 1
+[P2:T2:gg20_keygen] debug: ipc_release_id_range: ipc_send_message: 0
+[P1:libos] debug: Child process (pid: 2) died
+[P2:libos] debug: IPC worker: exiting worker thread
+[P1:libos] debug: IPC worker: received IPC message from 2: code=4 size=25 seq=0
+[P1:libos] debug: ipc_release_id_range_callback: release_id_range(2..2)
+[P2:T2:gg20_keygen] debug: process 2 exited with status 0
+[P1:T1:bash] debug: Created sigframe for sig: 17 at 0x12037250 (handler: 0x11766a70, restorer: 0x114a8450)
+[P1:T1:bash] debug: ---- exit_group (returning 0)
+[P1:T1:bash] debug: clearing POSIX locks for pid 1
+[P1:T1:bash] debug: sync client shutdown: closing handles
+[P1:T1:bash] debug: sync client shutdown: waiting for confirmation
+[P1:T1:bash] debug: sync client shutdown: finished
+[P1:libos] debug: IPC worker: exiting worker thread
+[P1:T1:bash] debug: process 1 exited with status 0
