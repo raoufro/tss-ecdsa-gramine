@@ -1,0 +1,146 @@
+# Make client and server dockers, and tests throughput based on different bandwidth
+
+services:
+  tss-coordinator:
+    image: roraouf/tss-ecdsa:0.1
+    container_name: tss-coordinator
+    networks:
+      iperf_network:
+        ipv4_address: $TSS_COORDINATOR_IPV4
+    volumes:
+      - ./logs:/logs
+      - ./scripts:/root/scripts
+  
+  tss-player1:
+    image: roraouf/tss-ecdsa:0.1
+    container_name: tss-player1
+    networks:
+      iperf_network:
+        ipv4_address: $TSS_PLAYER1_IPV4
+    volumes:
+      - /var/run/aesmd/aesm.socket:/var/run/aesmd/aesm.socket
+      - ./gramine-config:/root/gramine-config
+      - ./logs:/logs
+      - ./scripts:/root/scripts
+    devices:
+      - /dev/sgx_enclave:/dev/sgx_enclave
+    
+  tss-player2:
+    image: roraouf/tss-ecdsa:0.1
+    container_name: tss-player2
+    networks:
+      iperf_network:
+        ipv4_address: $TSS_PLAYER2_IPV4
+    volumes:
+      - /var/run/aesmd/aesm.socket:/var/run/aesmd/aesm.socket
+      - ./gramine-config:/root/gramine-config
+      - ./logs:/logs
+      - ./scripts:/root/scripts
+    devices:
+      - /dev/sgx_enclave:/dev/sgx_enclave
+      
+  tss-player3:
+    image: roraouf/tss-ecdsa:0.1
+    container_name: tss-player3
+    networks:
+      iperf_network:
+        ipv4_address: $TSS_PLAYER3_IPV4
+    volumes:
+      - /var/run/aesmd/aesm.socket:/var/run/aesmd/aesm.socket
+      - ./gramine-config:/root/gramine-config
+      - ./logs:/logs
+      - ./scripts:/root/scripts
+    devices:
+      - /dev/sgx_enclave:/dev/sgx_enclave
+  
+  tss-player4:
+    image: roraouf/tss-ecdsa:0.1
+    container_name: tss-player4
+    networks:
+      iperf_network:
+        ipv4_address: $TSS_PLAYER4_IPV4
+    volumes:
+      - /var/run/aesmd/aesm.socket:/var/run/aesmd/aesm.socket
+      - ./gramine-config:/root/gramine-config
+      - ./logs:/logs
+      - ./scripts:/root/scripts
+    devices:
+      - /dev/sgx_enclave:/dev/sgx_enclave
+  
+  tss-player5:
+    image: roraouf/tss-ecdsa:0.1
+    container_name: tss-player5
+    networks:
+      iperf_network:
+        ipv4_address: $TSS_PLAYER5_IPV4
+    volumes:
+      - /var/run/aesmd/aesm.socket:/var/run/aesmd/aesm.socket
+      - ./gramine-config:/root/gramine-config
+      - ./logs:/logs
+      - ./scripts:/root/scripts
+    devices:
+      - /dev/sgx_enclave:/dev/sgx_enclave
+  
+  tss-player6:
+    image: roraouf/tss-ecdsa:0.1
+    container_name: tss-player6
+    networks:
+      iperf_network:
+        ipv4_address: $TSS_PLAYER6_IPV4
+    volumes:
+      - /var/run/aesmd/aesm.socket:/var/run/aesmd/aesm.socket
+      - ./gramine-config:/root/gramine-config
+      - ./logs:/logs
+      - ./scripts:/root/scripts
+    devices:
+      - /dev/sgx_enclave:/dev/sgx_enclave
+  
+  tss-player7:
+    image: roraouf/tss-ecdsa:0.1
+    container_name: tss-player7
+    networks:
+      iperf_network:
+        ipv4_address: $TSS_PLAYER7_IPV4
+    volumes:
+      - /var/run/aesmd/aesm.socket:/var/run/aesmd/aesm.socket
+      - ./gramine-config:/root/gramine-config
+      - ./logs:/logs
+      - ./scripts:/root/scripts
+    devices:
+      - /dev/sgx_enclave:/dev/sgx_enclave
+
+  tss-player8:
+    image: roraouf/tss-ecdsa:0.1
+    container_name: tss-player8
+    networks:
+      iperf_network:
+        ipv4_address: $TSS_PLAYER8_IPV4
+    volumes:
+      - /var/run/aesmd/aesm.socket:/var/run/aesmd/aesm.socket
+      - ./gramine-config:/root/gramine-config
+      - ./logs:/logs
+      - ./scripts:/root/scripts
+    devices:
+      - /dev/sgx_enclave:/dev/sgx_enclave
+
+  tss-player9:
+    image: roraouf/tss-ecdsa:0.1
+    container_name: tss-player9
+    networks:
+      iperf_network:
+        ipv4_address: $TSS_PLAYER9_IPV4
+    volumes:
+      - /var/run/aesmd/aesm.socket:/var/run/aesmd/aesm.socket
+      - ./gramine-config:/root/gramine-config
+      - ./logs:/logs
+      - ./scripts:/root/scripts
+    devices:
+      - /dev/sgx_enclave:/dev/sgx_enclave
+    
+networks:
+  iperf_network:  
+    driver: bridge
+    ipam:
+     config:
+       - subnet: 10.5.0.0/16
+         gateway: 10.5.0.1

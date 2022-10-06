@@ -1,0 +1,10 @@
+services:
+  gramine-base:
+    image: roraouf/gramine-base
+    build: .
+    command: which socat
+    volumes:
+      - /var/run/aesmd/aesm.socket:/var/run/aesmd/aesm.socket
+      - ./scripts:/root/scripts
+    devices:
+      - /dev/sgx_enclave:/dev/sgx_enclave

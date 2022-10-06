@@ -1,0 +1,47 @@
+loader.entrypoint = "file:{{ gramine.libos }}"
+libos.entrypoint = "{{ execdir }}/bash"
+
+loader.log_level = "{{ log_level }}"
+loader.log_file = "/logs/gramine_log.txt"
+
+loader.env.LD_LIBRARY_PATH = "/lib:{{ arch_libdir }}:/usr{{ arch_libdir }}"
+loader.env.PATH = "{{ execdir }}:/usr/local/bin"
+
+loader.insecure__use_cmdline_argv = true
+loader.pal_internal_mem_size = "128M"
+
+sys.insecure__allow_eventfd = true
+sys.brk.size = "32M"
+sys.stack.size = "8M"
+
+fs.mounts = [
+    { path = "/lib", uri = "file:{{ gramine.runtimedir() }}" },
+    { path = "{{ arch_libdir }}", uri = "file:{{ arch_libdir }}" },
+    { path = "/usr/lib", uri = "file:/usr/lib" },
+    { path = "{{ execdir }}", uri = "file:{{ execdir }}" },
+    { path = "/etc", uri = "file:/etc" },
+    { path = "/usr/local/bin", uri = "file:/usr/local/bin" },
+    
+    { type = "tmpfs", path = "/tmp" },
+    { type = "chroot", path = "/logs", uri="file:../logs" },
+]
+
+sgx.debug = {{ sgx_debug }}
+sgx.nonpie_binary = true
+sgx.enclave_size = "512M"
+sgx.thread_num = 60
+
+
+sgx.trusted_files = [
+  "file:{{ gramine.libos }}",
+  "file:{{ execdir }}/",
+  "file:{{ gramine.runtimedir() }}/",
+  "file:{{ arch_libdir }}/",
+  "file:/usr/{{ arch_libdir }}/",
+]
+
+sgx.allowed_files = [
+    "file: /logs/",
+    "file: ../scripts/",
+]
+sgx.file_check_policy = "allow_all_but_log"
